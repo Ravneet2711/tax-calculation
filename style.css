@@ -197,4 +197,8 @@ span.close {
     font-size: 16px;
     padding: 6px;
   }
+  .valid_info_container {
+    bottom: 18px;
+    left: -42px;
+}
 }
