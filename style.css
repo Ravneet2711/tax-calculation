@@ -76,8 +76,9 @@ color:red;
 
 .info_container{
   position: absolute;
-  left:50%;
-  transform: translateX(-50%);
+  top:50%;
+  right:8px;
+  transform: translateY(-50%);
   bottom: 27px;
   background: #0070ae;
   padding: 8px;
@@ -86,6 +87,9 @@ color:red;
   font-size: 13.5px;
   font-weight: 500;
   color: #fff;
+  height: max-content;
+  left:calc(100% + 8px);
+  z-index: 10;
 }
 
 .valid_info_container{
@@ -197,8 +201,16 @@ span.close {
     font-size: 16px;
     padding: 6px;
   }
+  .info_container{
+    top: calc(100% + 4px);
+    transform: translateX(-70%);
+    left: 30%;
+    right: unset;
+  }
   .valid_info_container {
-    bottom: 18px;
-    left: -42px;
+    right: 0;
+    left: unset;
+    transform: translateX(0);
 }
+
 }
