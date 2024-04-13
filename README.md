@@ -14,11 +14,18 @@ _This is a simple tax calculator app. It calculates an individual's tax liabilit
 
 ## Screenshots
 
-![Main Interface](screenshots\form.png)
-*Screenshot of the main interface showing input fields for income, deductions, and filing status.*
+*Screenshots of the main interface showing input fields for income, deductions, and filing status.*
 
-![Results](screenshots\modal.png)
-*Screenshot displaying the calculated tax liability and refund amount.*
+![Main Interface](https://github.com/Ravneet2711/tax-calculation/blob/main/screenshots/form.png)
+
+![Results](https://github.com/Ravneet2711/tax-calculation/blob/main/screenshots/modal.png)
+
+![Results](https://github.com/Ravneet2711/tax-calculation/blob/main/screenshots/formInfo.png)
+
+![Results](https://github.com/Ravneet2711/tax-calculation/blob/main/screenshots/validate.png)
+
+![Results](https://github.com/Ravneet2711/tax-calculation/blob/main/screenshots/validateInfo.png)
+
 
 
 ## Features
@@ -49,7 +56,12 @@ _This is a simple tax calculator app. It calculates an individual's tax liabilit
 - Reset Button: 
     A reset button is provided to clear the input fields and reset the form.
 
+  ## Installation
 
+You can simply clone this repository to your local machine or download the ZIP file.
+
+```bash
+git clone https://github.com/Ravneet2711/tax-calculation.git
 
 
 
