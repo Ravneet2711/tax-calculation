@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.cursor_pointer{
+  cursor: pointer;
+}
+
+#main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: #000;
+  opacity: 0.3;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.container {
+  border: 2px solid #c9d7e6;
+  margin-top: 30px;
+  width: 350px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  font-family: "Open Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+input,
+select {
+  padding: 8px;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  width: 100%;
+  outline: none;
+  border:1px solid black;
+}
+
+
+input::-webkit-inner-spin-button {
+  display: none !important;
+}
+
+input+span{
+  position:relative;
+}
+
+input+span i {
+  position: absolute;
+  right: 8px;
+  top: 0;
+  color:black;
+}
+
+.error_icon{
+color:red;
+}
+
+.info_container{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  bottom: 27px;
+  background: #0070ae;
+  padding: 8px;
+  border-radius: 6px;
+  width: 150px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.valid_info_container{
+  width:max-content;
+  background-color:gray;
+  bottom:20px;
+}
+
+.hide_container{
+  display: none;
+}
+
+.invalid {
+  border-color:  red !important;
+}
+
+.valid_info span{
+color:red;
+font-size:12px
+}
+
+button {
+  padding: 10px;
+  border: 2px solid #56addd;
+  background: #56addd;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reset_btn {
+  margin-top: 15px;
+  background: #fff;
+  color: #56addd;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+.reset_btn:hover {
+  color: #0070ae;
+  background: #56addd59;
+}
+
+#modal {
+  /* display: none; */
+  position: absolute;
+  width: 60%;
+  border: 2px solid #c9d7e6;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 50px;
+  z-index: 20;
+}
+
+#modal h2 {
+  font-size: 30px;
+}
+
+#modal h2 span {
+  display: block;
+}
+
+#modal p {
+  font-size: 18px;
+  padding: 10px;
+}
+span.close {
+  position: absolute;
+  right: 20px;
+  top: -3px;
+  font-size: 3vw;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0 15;
+    width: 300px;
+    padding: 20px;
+  }
+
+  form {
+    font-size: 13px;
+  }
+
+  input,
+  select {
+    padding: 6px;
+    font-size: 13px;
+  }
+
+  button {
+    padding: 8px;
+  }
+
+  #modal {
+    width: 280px;
+    padding: 30px;
+  }
+
+  #modal h2 {
+    font-size: 25px;
+  }
+
+  #modal p {
+    font-size: 16px;
+    padding: 6px;
+  }
+}

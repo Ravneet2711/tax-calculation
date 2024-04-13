@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"/>
+  </head>
+  <body>
+    <div  id="main-container">
+      <!-- <div class="overlay"></div> -->
+    <div class="container">
+      <form id="tax_form">
+        <label for="income" class="tooltip"> Enter Gross Annual income <span class="info_class" style="position: relative;" id="gross_income_info">
+          <i class="bi bi-question-circle cursor_pointer"></i>
+          <div class="info_container hide_container" >Gross annual income is your total salary in a year before any deductions.</div>
+        </span></label
+        >
+
+        <div  >
+           <input
+            type="text"
+            name="grossIncome"
+            placeholder="Enter gross annual income"
+          />
+          <span class="valid_info"  id="gross_input_valid" >
+            <i class="bi bi-exclamation-circle cursor_pointer"></i>
+            <div class="info_container valid_info_container hide_container">Please enter numbers only</div>
+          </span>
+         
+        </div>
+        <br />
+        
+        <label for="extra_income">Enter Extra Income <span class="info_class" style="position: relative;" id="extra_income_info">
+          <i class="bi bi-question-circle cursor_pointer"></i>
+          <div class="info_container hide_container" >Extra income is additional money earned beyond your primary source of income.</div>
+        </span></label>
+
+        <div>
+          <input
+          type="text"
+          name="extraIncome"
+          placeholder="Enter extra income"
+          />
+          <span class="valid_info"  id="gross_input_valid" >
+            <i class="bi bi-exclamation-circle cursor_pointer"></i>
+            <div class="info_container valid_info_container hide_container">Please enter numbers only</div>
+          </span>
+        </div>
+       
+        <br />
+
+        <label for="age">Enter Age Group <span class="info_class" style="position: relative;" id="age_select_info">
+          <i class="bi bi-question-circle cursor_pointer"></i>
+          <div class="info_container hide_container" >Select the range in which your age lies. eg: if your age is 67, then select the option ">=60" </div>
+        </span></label>
+
+        <select name="age">
+          <option value='0'  selected>--SELECT AGE GROUP--</option>
+            <option value='1'><40</option>
+            <option value="2">≥ 40 & <60</option>
+            <option value="3">≥ 60</option>
+          </select>
+        <br />
+
+        <label for="deduction">Enter Total Applicable Deduction <span class="info_class" style="position: relative;" id="deduction_info">
+          <i class="bi bi-question-circle cursor_pointer"></i>
+          <div class="info_container hide_container" >Deduction is allowable expense or reduction that you can subtract from your gross income to arrive at your taxable income. </div>
+        </span></label>
+
+        <div>
+          <input
+          type="text"
+          name="deductions"
+          placeholder="Enter total applicable deduction"
+        />
+        <span class="valid_info"  id="gross_input_valid" >
+          <i class="bi bi-exclamation-circle cursor_pointer"></i>
+          <div class="info_container valid_info_container hide_container">Please enter numbers only</div>
+        </span>
+        </div>
+       
+        <br />
+
+        <button  type="submit">Submit</button>
+        <button class="reset_btn" type="reset">Reset</button>
+      </form>
+    </div>
+   
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
