@@ -51,10 +51,5 @@ _This is a simple tax calculator app. It calculates an individual's tax liabilit
 
 
 
-## Installation
 
-You can simply clone this repository to your local machine or download the ZIP file.
-
-```bash
-git clone https://github.com/Ravneet2711/tax-calculation.git
 
