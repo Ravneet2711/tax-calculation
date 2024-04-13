@@ -14,7 +14,7 @@ _This is a simple tax calculator app. It calculates an individual's tax liabilit
 
 ## Screenshots
 
-![Main Interface](form.png)
+![Main Interface](https://github.com/Ravneet2711/tax-calculation/blob/main/screenshots/form.png)
 *Screenshot of the main interface showing input fields for income, deductions, and filing status.*
 
 ![Results](https://example.com/screenshots/results.png)
