@@ -4,7 +4,7 @@ _This is a simple tax calculator app. It calculates an individual's tax liabilit
 
 ## Project URL
 
-[Tax Calculator](https://ravneet-portfolio.vercel.app/)
+[Tax Calculator](https://tax-calculation-app.netlify.app/)
 
 ## Tech
 
@@ -49,7 +49,5 @@ _This is a simple tax calculator app. It calculates an individual's tax liabilit
 - Reset Button: 
     A reset button is provided to clear the input fields and reset the form.
 
-## Implementation
 
-- DOM manipulation using DOM style
 
