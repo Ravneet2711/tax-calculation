@@ -15,10 +15,19 @@ _This is a simple tax calculator app. It calculates an individual's tax liabilit
 ## Screenshots
 
 ![Main Interface](https://github.com/Ravneet2711/tax-calculation/blob/main/screenshots/form.png)
+
 *Screenshot of the main interface showing input fields for income, deductions, and filing status.*
 
 ![Results](https://github.com/Ravneet2711/tax-calculation/blob/main/screenshots/modal.png)
+
 *Screenshot displaying the calculated salary after deducting tax.*
+
+![Results](https://github.com/Ravneet2711/tax-calculation/blob/main/screenshots/formInfo.png)
+
+![Results](https://github.com/Ravneet2711/tax-calculation/blob/main/screenshots/validate.png)
+
+![Results](https://github.com/Ravneet2711/tax-calculation/blob/main/screenshots/validateInfo.png)
+
 
 
 ## Features
